@@ -1,0 +1,116 @@
+*{
+    padding: 5px
+}
+header{
+    background-color: aqua;
+    height: 700px;
+    border: 5px;
+    padding-bottom: 90px;
+}
+#hero{
+    display: flex;
+}
+.entête{
+    display: flex;
+    justify-content: space-between;
+    background-color: aliceblue;
+    padding: 40px;
+    margin: 15px;
+}
+span {
+    color: aqua;
+    font-weight: bolder;
+    font-size: 50px;
+
+}
+#lien {
+    text-decoration: none;
+    font: size 40px;
+    margin: 5px;
+}
+#lampe {
+    align-items: center;
+    text-align: center;
+}
+#lampe h1{
+    color:white ;
+    width: 100%;
+    font-size: 50px;
+}
+.image1{
+    width: 50%;
+    position: absolute;
+    top: 80px;
+    right: 0;
+}
+#fonctionnalité{
+ background-color: bisque;
+ border-radius: 5px;
+}
+#solar {
+background-color: yellow;
+text-align: center;
+border-radius: 5px;
+}
+#solar h1 {
+color: gray;
+font-size: ;
+}
+#cord {
+    display: flex;
+    padding: 0 5%;
+}
+.pointCle{
+    background-color: aqua;
+    margin: 5px;
+}
+.pointCle h1 {
+font-size: 25px;
+}
+.form-container{
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    width: 100%;
+    max-width:400px ;
+}
+.form-container h1 {
+    text-align: center;
+}
+.form-group {
+    margin-bottom: 20px;
+}
+label{
+    display: block;
+    font-size: 14px;
+    color: darkgray;
+    margin-bottom:5px ;
+}
+input, textarea {
+    width: 100%;
+    padding: 10px;
+    border : 2px solid #ddd
+    border-radius: 4px;
+}
+textarea{
+    resize: vertical;
+}
+button {
+    width: 100%;
+    padding: 12px;
+    background-color: #007bff;
+    border: none;
+    border-radius: 4px;
+    cursor:pointer ;
+    transition: 0.3s ;
+}
+button:hover {
+    background-color: #007bff;
+}
+footer{
+    background-color: rgb(244,248,227);
+    padding: 30px;
+}
+#copy{
+    text-align: center;
+}
